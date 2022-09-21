@@ -1,2 +1,2 @@
-# compressor_wizard
+# Compressor-Wizard
 It's the compressor wizard.
