@@ -52,6 +52,7 @@ ul {
 .titles {
     display: flex;
     justify-content: center;
+    gap: 200px;
     font-size: 18px;
 }
 
@@ -68,7 +69,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    gap: 15px;
+    gap: 14px;
     margin-top: 32px;
 }
 
@@ -76,14 +77,15 @@ ul {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    gap: 8px;
+    gap: 9px;
 }
 
 select {
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: dodgerblue;
+    background-color: #3882f6;
     color: white;
+    border-style: none;
 }
 
 .compressorlist {
@@ -91,10 +93,37 @@ select {
     flex-direction: column;
     font-size: 18px;
     margin-top: 32px;
-    gap: 15px;
+    gap: 14px;
 }
 
 .compressor-status {
     display: flex;
-    gap: 15px;
+    gap: 14px;
+}
+
+.status-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 32px;
+    gap: 14px;
+}
+
+.reset-button {
+    background-color: #3882f6;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    margin-top: 20px;
 }
