@@ -21,7 +21,7 @@ body {
     justify-content: center;
     padding: 12px;
     margin-bottom: 25px;
-    gap: 12px;
+    gap: 14px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -36,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
 }
 
 .wiz-title {
@@ -62,6 +62,7 @@ body {
     gap: 14px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 .compressor-status,
@@ -74,18 +75,21 @@ body {
 .link-container{
     display: flex;
     justify-content: center;
-    gap: 14px;
     align-items: center;
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882f6;
     text-decoration: none;
     margin: 25px;
-    padding: 10px;
+    width: 150px;
+    height: 60px;
     border: none;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 22px;
     color: #F9FAF8;
 }
 
@@ -119,12 +123,9 @@ a {
     justify-content: center;
     align-items: center;
 }
-.select-machine {
-
-}
 
 #machine-list-box,
-#compressor-pressure {
+#pressure-list-box {
 
     font-size: 24px;
     margin: 30px;
@@ -144,4 +145,33 @@ option {
     width: 100px;
     justify-content: center;
     align-items: center;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #303030;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#percent-label {
+    font-size: 26px;
+    background-color: #ff4040;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.select-label {
+    font-size: 24px;
+}
+
+.vsd-label {
+    font-size: 24px;
 }
