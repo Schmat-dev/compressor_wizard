@@ -34,7 +34,7 @@ document.getElementById('machine-list-box').addEventListener('change', function(
     console.log(selectedpressure);
     console.log(selectedmachine);
  })
-document.getElementById('pressure-list-box').addEventListener('change', function(e){
+document.getElementById('pressure-list-box').addEventListener('hover(mouseover())', function(e){
     selectedpressure = e.target.value;
     console.log(selectedpressure);
  })
