@@ -4,14 +4,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #e2e8ec;
 }
 
 .title {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .logo {
-    width: 50px;
+    width: 80px;
     height: auto;
 }
 
@@ -21,8 +22,8 @@ body {
     justify-content: center;
     padding: 12px;
     margin-bottom: 25px;
-    gap: 14px;
-    background-color: #1F2937;
+    gap: 8px;
+    background-color: #395e74;
     color: #F9FAF8;
 }
 
@@ -64,7 +65,9 @@ body {
     margin-right: 20px;
     margin-bottom: 30px;
 }
-
+.logo {
+    color:#F9FAF8;
+}
 .compressor-status,
 .machine-container {
     display: flex;
@@ -101,8 +104,8 @@ a {
 
 .aveka-logo {
     margin: 18px;
-    width: 275px;
-    height: auto;
+    width: 350px;
+    height: auto; 
 }
 
 .status {
